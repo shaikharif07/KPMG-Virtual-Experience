@@ -1,0 +1,46 @@
+Dear Kathleen,
+
+	I am writing to you today to share the results of my analysis of the Excel file you provided me with. The file contains data on four sheets:
+Sheet 1: Customer Demographic
+Sheet 2: Transaction
+Sheet 3: New Customer list
+Sheet 4: Customer Address
+
+	I have analyzed the data on these sheets and here are my recommendations on ways to clean the underlying data and mitigate these issues. 
+
+Customer Demographic:
+There are 88 customers who have inserted gender as U, which could mean unknown or unidentified.
+
+There is inconsistency in the gender column, with some customers having the typo "femal" and others just the initials F/M.
+
+The customer with ID 34, Jephthah Bachmann, was born in 1843, which is an outlier.
+
+The default column does not provide any key information and will be removed later.
+
+The dataset lacks completeness, with 2.05% of the values missing.
+
+Transaction:
+The customer ID 5034 is repeated three times in the transaction sheet, but there is no customer with this ID in the customer demographic sheet.
+
+The product first sold date column needs to be formatted as a date.
+
+0.46% of the values in the transaction sheet are missing.
+
+New Customer list:
+
+There is inconsistency in the gender column, with some customers having ‘U’
+
+0.66% of the values in the new customer list are missing.
+
+Customer Address:
+
+0.025% of the values in the customer address sheet are missing.
+There are inconsistencies between the customer ID values in the customer address sheet and the customer demographic sheet. For example, the customer IDs 4001, 4002, and 4003 are in the customer address sheet, but they are not in the customer demographic sheet.
+
+Overall, the data is relevant for our analysis, but there are some issues with consistency and completeness that need to be addressed. I have attached a summary of my findings to this email.
+
+Sincerely, 
+Arif Shaikh
+Data Analyst
+KPMG
+
